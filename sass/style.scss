@@ -1,0 +1,236 @@
+// HEADER
+
+.logo{
+	background-repeat: no-repeat ;
+}
+
+.btn{
+	margin-left: 85%;
+}
+
+header{
+	background-image: url(../img/parallax-1.jpg);
+	background-repeat: no-repeat ;
+	background-size: 1411px 1000px;
+	height: 1000px;		
+}
+
+.title-page{
+	text-align: center;
+	margin-top: $tamano;
+}
+
+.scroll{
+	text-align: center;
+	margin-left: 535px;
+	height: 50px;
+	margin-top: 100px; 
+
+}
+
+.arrow{
+	text-align: center;
+	margin-left: 565px;
+	height: 15px;
+	margin-top: 100px;
+
+}
+
+//SECTION 2
+
+.foto2{
+	background-image: url(../img/parallax-3.jpg);
+	background-repeat: no-repeat ;
+	background-size: 1411px 1000px;
+	height: 1000px;
+}
+
+.titulo{
+	h1{
+		text-align: center;
+		font-size: 80px;
+		margin-top: 300px;
+		color: #F5F7E4; }
+
+		p{
+		text-align:center;
+		font-size: 20px;
+		color: #F5F7E4; 
+		}	
+	}
+
+
+//SECTION 3
+
+.text-center{
+		width: 164px;
+	h2{
+		color: #FCC0B8;	
+	}
+
+	p{
+		color: #575656;
+	}
+
+}
+
+.caja{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+//SECTION 4
+
+.efecto1{
+	background-image:url("../img/min-video-1-2.jpg");
+	background-repeat:no-repeat;
+	height: 700px; 
+	p{
+		margin-top: 300px;
+		margin-left: 195px;
+		color: white;
+	}
+}
+
+.efecto2{
+	background-image:url("../img/min-video-3.jpg");
+	background-repeat:no-repeat;
+	height: 500px;
+	width: 320px;
+	p{
+		margin-top: 130px;
+		margin-left: 30px;
+		color: white;
+	}
+
+}
+
+.efecto3{
+	background-image:url("../img/min-video-5.jpg");
+	background-repeat:no-repeat;
+	height: 500px;
+	width: 320px;
+	p{
+		margin-top: 130px;
+		margin-left: 30px;
+		color: white;
+	}
+
+}
+
+.efecto4{
+	background-image:url("../img/min-video-6.jpg");
+	background-repeat:no-repeat;
+	margin-top: -194px;
+	height: 305px;
+	p{
+		margin-top: 150px;
+		margin-left: 110px;
+		color: white;
+	}
+
+}
+
+//SECTION 5
+
+.foto3{
+	background-image: url(../img/parallax-2.jpg);
+	background-repeat: no-repeat ;
+	background-size: 1411px 1000px;
+	height: 1000px;
+	margin-top: -89px;
+}
+
+.titulo{
+	h1{
+		text-align: center;
+		font-size: 80px;
+		margin-top: 300px;
+		color: #F5F7E4; }
+	}
+
+//SECTION 6
+
+.text1 .text2 .text3{
+	text-align: center;
+	margin-top: 300px;
+}
+
+.fond1{
+	background-color: #FCFBCF;
+	height: 700px;
+	img{
+		text-align: center;
+		margin-top: 150px;
+		margin-left: 150px;
+	}
+}
+
+.fond2{
+	background-color: #60DB4B;
+	height: 700px;
+	img{
+		text-align: center;
+		margin-top: 150px;
+		margin-left: 150px;
+	}
+}
+
+.fond3{
+	background-color: #FCC0B8;
+	height: 700px;
+	img{
+		text-align: center;
+		margin-top: 150px;
+		margin-left: 150px;
+	}
+}
+
+//SECTION 7
+
+.foto4{
+	background-image: url(../img/parallax-4.jpg);
+	background-repeat: no-repeat ;
+	background-size: 1411px 1000px;
+	height: 1000px;
+}
+
+.titulo{
+	h1{
+		text-align: center;
+		font-size: 80px;
+		margin-top: 300px;
+		color: #F5F7E4; }
+	}
+
+// CAROUSEL
+
+.fa {
+	color: white;
+	zoom: 6; 
+}
+
+
+//SECTION 8 
+
+.lovetea{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+/* FOOTER */
+
+.final{
+	background-color: #7D7D7A;
+	margin-top: 15px;
+	height: 100px;
+}
+
+.final p{
+	margin-top: 50px;
+	margin-bottom: 25px;
+	color: #CCCCC8;
+}
+
