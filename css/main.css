@@ -5864,6 +5864,19 @@ button.close {
     margin-top: 300px;
     color: #F5F7E4; }
 
+  .zom img {
+    height: 400px;
+    width: 400px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease; }
+
+  .zom img:hover {
+    width: 500px;
+    height: 500px; }
+
   .text1, .text2, .text3 {
     text-align: center; }
     .text1 h1, .text2 h1, .text3 h1 {

@@ -9,6 +9,7 @@
 	<link rel="stylesheet"  type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -95,7 +96,7 @@
 		<!-- SECTION 3 -->
 		<section>
 			<container>
-				<div class="row caja">
+				<div class="row caja animated fadeInUp">
 					<div class="col-xs-12 col-md-2">
 						<div class="text-center">
 							<h2>Negro</h2>
@@ -133,38 +134,37 @@
 
 		<!-- SECTION 4 -->
 
-		<section id="fotos-efectos" class="hidden-xs">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-6 efecto1">
-						<img src="img/min-video-1-2.jpg">
-						<p class="espacio1">
-							¿Todas las infuciones son té?
-						</p>
-					</div> 
-					<div class="col-xs-3 efecto2">
-						<img src="img/min-video-3.jpg">
-						<p class="espacio2">
-							¿Tiene la misma cafeina que el cafe?
-						</p>
-					</div>
-					<div class="col-xs-3 efecto3">
-						<img src="img/min-video-5.jpg">
-						<p class="espacio3">
-							¿Cual es la diferencia entre las bolsitas de té y el té a granel o en piramide? 
-						</p>
-					</div>
-					<div class="col-xs-6 efecto4">
-						<img src="img/min-video-6.jpg">
-						<p class="espacio4">
-							Se puede mesclar distintos tipos de té para crear una infucion
-						</p>
-					</div>
+		<section class="container-fluid hidden-xs" id="fotos-efectos">
+			<div class="row item">
+				<div class="col-xs-6 efecto1">
+					<img class="animated bounceInDown item-overlay top" src="img/min-video-1-2.jpg">
+					<p class="espacio1">
+						¿Todas las infuciones son té?
+					</p>
+				</div>
+				<div class="col-xs-3 efecto2">
+					<img class='animated bounceInRight' src="img/min-video-3.jpg">
+					<p class="espacio2">
+						¿Tiene la misma cafeina que el cafe?
+					</p>
+				</div>
+				<div class="col-xs-3 efecto3">
+					<img class='animated bounceIn' src="img/min-video-5.jpg">
+					<p class="espacio3">
+						¿Cual es la diferencia entre las bolsitas de té y el té a granel o en piramide? 
+					</p>
+				</div>
+				<div class="col-xs-6 efecto4">
+					<img class='animated bounceInUp'  src="img/min-video-6.jpg">
+					<p class="espacio4">
+						Se puede mesclar distintos tipos de té para crear una infucion
+					</p>
 				</div>
 			</div>
 		</section>
 
 		<!-- SECTION 5 -->
+
 		<section class="foto3">
 			<div class="container">
 				<div class="row titulo">
@@ -188,8 +188,8 @@
 						<h1>¿Cuánto té debo echar para una taza?</h1>
 						<p>Lo ideal son 3 gramos por taza. Para calcular cuánto son tres gramos nosotros utilizamos y vendemos una cuchara medidora, no obstante, si no tiene basta con utilizar una cuchara de postre. Es importante saber que la cantidad de hebras que echemos solo va a influir en la intensidad del sabor del té y teniendo en cuenta que hay personas que les gusta el té más intenso que a otras, se puede modificar la cantidad que se echa sin problemas. También debemos tener en cuenta que el Té Blanco tiene mucho más volumen que el resto de tés y por tanto, necesitaremos más cantidad para lograr los 3 gramos recomendados.</p>  
 					</div>
-					<div class="col-md-6 fond1 hidden-xs">
-						<img src="img/icon-1.png">  
+					<div class="col-md-6 fond1 hidden-xs zom">
+						<img src="img/icon-1.png" alt="portrait">  
 					</div>
 				</div>
 			</div>
@@ -198,8 +198,8 @@
 
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 fond2 hidden-xs">
-						<img src="img/icon-2.png">  
+					<div class="col-md-6 fond2 hidden-xs zom">
+						<img src="img/icon-2.png" alt="portrait" >  
 					</div>
 					<div class="col-md-6 text2">
 						<h1>¿Debo hervir el agua para hacer té?</h1>
@@ -221,8 +221,8 @@
 						<h1>¿Cuántos tés e infusiones son recomendables al día?</h1>
 						<p>Cada persona tiene una tolerancia a la teina distinta de modo que tendrá que ver cuántas tazas de té con tomar al día. No obstante, podemos compaginar tomar té con tomar otras infusiones sin teina como el rooibos, las infusiones frutales, las especiadas,etc. Y de esta forma no nos tendremos que preocupar por si nos estimula demasiado.</p>  
 					</div>
-					<div class="col-md-6 fond3 hidden-xs">
-						<img src="img/icon-3.png">  
+					<div class="col-md-6 fond3 hidden-xs zom">
+						<img src="img/icon-3.png" alt="portrait">  
 					</div>
 				</div>
 			</div>
@@ -275,7 +275,7 @@
 							<li>Porque te mantiene hidratado</li>
 							<li>Porque combate la anemia</li>
 						</ul>
-						<p>Hay té verde, rojo, blanco,etc. Sólo debes elegir tu favorito. Para esto te recomendamos ir a Té Encanto, Tienda ubicada en el Barrio [italia y que se dedica a la venta de té en hoja saborizados y accesorios. Descubre tu sabor favorito. Descarga BeeknApp y ya podrás obtener grandes beneficios!</p>
+						<p>Hay té verde, rojo, blanco,etc. Sólo debes elegir tu favorito. Para esto te recomendamos ir a Té Encanto, Tienda ubicada en el Barrio italia y que se dedica a la venta de té en hoja saborizados y accesorios. Descubre tu sabor favorito. Descarga BeeknApp y ya podrás obtener grandes beneficios!</p>
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<img class="pc img-responsive" src="img/paquete.png ">
